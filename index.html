@@ -1,8 +1,24 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Simple Blockchain Demo</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <h1>Welcome to the Simple Blockchain Demo</h1>
+  <main class="wrap">
+    <header class="header">
+      <h1>Simple Blockchain Simulator</h1>
+    </header>
+
+    <section id="chain" class="chain"></section>
+
+    <div class="actions">
+      <button id="addBlockBtn" class="btn">Add Block</button>
+    </div>
+  </main>
+
+  <script src="app.js"></script>
 </body>
 </html>
